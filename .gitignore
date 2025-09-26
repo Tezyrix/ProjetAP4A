@@ -1,0 +1,37 @@
+# Ignore build directory
+/build/
+
+# Ignore CMake cache and generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled static and shared libs
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Ignore executables
+*.exe
+*.out
+*.app
+
+# Ignore VSCode config (optional, if you don’t want to share IDE settings)
+.vscode/
+
+# Ignore Visual Studio specific files
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# Ignore CLion/JetBrains project files
+.idea/
