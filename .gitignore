@@ -1,18 +1,18 @@
-# Ignore build directory
+# Build directory
 /build/
 
-# Ignore CMake cache and generated files
+# CMake cache and generated files
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
 install_manifest.txt
 
-# Ignore compiled object files
+# Compiled object files
 *.o
 *.obj
 
-# Ignore compiled static and shared libs
+# Compiled, static and shared libs
 *.a
 *.lib
 *.so
@@ -20,18 +20,10 @@ install_manifest.txt
 *.dll
 *.dylib
 
-# Ignore executables
+# Executables
 *.exe
 *.out
 *.app
 
-# Ignore VSCode config (optional, if you don’t want to share IDE settings)
+# IDE settings
 .vscode/
-
-# Ignore Visual Studio specific files
-*.vcxproj
-*.vcxproj.filters
-*.sln
-
-# Ignore CLion/JetBrains project files
-.idea/
