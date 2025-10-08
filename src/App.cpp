@@ -10,7 +10,7 @@ App::App() {
         std::cerr << "Failed to init GLFW\n";
     }
 
-    GLFWwindow* m_window = glfwCreateWindow(800, 600, "ImGui Local Example", nullptr, nullptr);
+    m_window = glfwCreateWindow(800, 600, "ImGui Local Example", nullptr, nullptr);
     if (!m_window) {
         std::cerr << "Failed to create GLFW window\n";
         glfwTerminate();
